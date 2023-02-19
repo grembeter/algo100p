@@ -6,10 +6,6 @@ include("../common-problem.cmake")
 
 include_directories("include")
 
-add_library(${CMAKE_PROJECT_NAME}-1 STATIC "solution-1.c")
-add_executable(test-${CMAKE_PROJECT_NAME}-1 "test-solution-1.c")
-target_link_libraries(test-${CMAKE_PROJECT_NAME}-1 solution-1)
+add_library(${CMAKE_PROJECT_NAME}-1 SHARED "solution-1.c")
 
-enable_testing()
-
-add_test(NAME ${CMAKE_PROJECT_NAME}-1 COMMAND test-${CMAKE_PROJECT_NAME}-1)
+include("../common-testing.cmake")
