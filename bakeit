@@ -19,4 +19,9 @@ mkdir -p "$BUILDDIR"
 cd "$BUILDDIR"
 cmake "$PROBLEMDIR"
 cmake --build "$PWD"
-ctest --output-on-failure -V
+
+if command -v pytest > /dev/null; then
+    ctest --output-on-failure -V
+else
+    echo ' !!! "pytest" command is not found, no tests can be ran'
+fi

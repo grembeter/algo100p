@@ -11,13 +11,16 @@ Most problems have the same structure:
 #+BEGIN_EXAMPLE
 0001-easy-count-pairs-with-given-sum     <= name (number-easy/medium/hard-subject)
 ├── CMakeLists.txt                       <= main CMake file
-├── hashset.c                            <= solution library c-file
-├── hashset-test.c                       <= solution main() with tests
 ├── include
 │   └── hashset.h                        <= solution library h-file
-└── problem.txt                          <= problem text description
+├── problem.txt                          <= problem text description
+├── solution-1.c                         <= solution-1 library c-file
+└── test
+    ├── testcase01.json                  <= testcase data
+    ├── testcase02.json
+    └── test_solution.py                 <= testcase runner (pytest)
 
-1 directory, 5 files
+3 directories, 7 files
 #+END_EXAMPLE
 
 * How to build and test
