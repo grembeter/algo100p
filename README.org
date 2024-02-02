@@ -31,9 +31,10 @@ Run ~bakeit~ script for the appropriate problem, e.g.: ~./bakeit 3~
 
 | name                                     | date                  |
 |------------------------------------------+-----------------------|
-| [[0001-easy-count-pairs-with-given-sum/problem.txt][0001-easy-count-pairs-with-given-sum]]     | \checkmark [[0001-easy-count-pairs-with-given-sum/hashset-test.c][2021-03-21]] |
-| [[0002-easy-find-islands/problem.txt][0002-easy-find-islands]]                   | \checkmark [[0002-easy-find-islands/test-solution-1.c][2021-03-29]] |
-| [[0003-easy-replace-even/problem.txt][0003-easy-replace-even]]                   | \checkmark [[0003-easy-replace-even/test-solution-1.c][2021-04-01]] |
-| [[0004-medium-trapping-rain-water/problem.txt][0004-medium-trapping-rain-water]]          | \checkmark [[0004-medium-trapping-rain-water/test-solution-1.c][2021-04-21]] |
-| [[0005-medium-longest-consecutive-sequence/problem.txt][0005-medium-longest-consecutive-sequence]] | \checkmark [[0005-medium-longest-consecutive-sequence/test-solution-1.c][2022-05-04]] |
+| [[0001-easy-count-pairs-with-given-sum/problem.txt][0001-easy-count-pairs-with-given-sum]]     | \checkmark [[0001-easy-count-pairs-with-given-sum/solution-1.c][2021-03-21]] |
+| [[0002-easy-find-islands/problem.txt][0002-easy-find-islands]]                   | \checkmark [[0002-easy-find-islands/solution-1.c][2021-03-29]] |
+| [[0003-easy-replace-even/problem.txt][0003-easy-replace-even]]                   | \checkmark [[0003-easy-replace-even/solution-1.c][2021-04-01]] |
+| [[0004-medium-trapping-rain-water/problem.txt][0004-medium-trapping-rain-water]]          | \checkmark [[0004-medium-trapping-rain-water/solution-1.c][2021-04-21]] |
+| [[0005-medium-longest-consecutive-sequence/problem.txt][0005-medium-longest-consecutive-sequence]] | \checkmark [[0005-medium-longest-consecutive-sequence/solution-1.c][2022-05-04]] |
+| [[0006-medium-maximum-subarray/problem.txt][0006-medium-maximum-subarray]]             | \checkmark [[0006-medium-maximum-subarray/solution-1.c][2024-02-02]] |
 |------------------------------------------+-----------------------|
